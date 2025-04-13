@@ -1443,7 +1443,7 @@ export const Map = Evented.extend({
 
 		if (!targets.length) { return; }
 
-		if (type === 'contextmenu') {
+		if (type === 'contextmenu') {maps}
 			DomEvent.preventDefault(e);
 		}
 
